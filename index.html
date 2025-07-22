@@ -1,21 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dandelion</title>
-  
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arathy Rajesh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Dandelion Portfolio</h1>
-  </header>
+    <header>
+        <section class="header-container">
+            <div class="header-logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="LOGO"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
-  <main>
-    <p>Hello world. Testing local setup!</p>
-  </main>
+    <main class="main-index">
+        <section class="main-container">
+            <video autoplay muted playsinline id="introVideo">
+                <source src="assets/Arathyyy d.mov" type="video/mp4">
+            </video>
 
-  <script src="script.js"></script>
+
+
+            <!-- Optional intro text -->
+            <div class="intro-text">
+                <h1>Hello, I'm Arathy</h1>
+                <p>I create thoughtful digital experiences.</p>
+            </div>
+        </section>
+
+
+
+        <img src="assets/Untitled-3.png" alt="Dandelion Seed" class="dandelion-seed">
+
+
+
+
+        <section class="main-projects" id="portfolio">
+            
+            <h2>.</h2>
+            <p>SCROLL DOWN!</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="main-project-card">
+                    <img src="Images/project 1.png" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Spatial AR Reading Experience</h3>
+                        <p>AR</p>
+                        <button>View Project</button>
+                    </div>
+                </div>
+                <div class="main-project-card">
+                    <a href="project1-casestudy.html">
+                        <img src="Images/project 1.png" alt="Project 1 Image">
+                        <div class="project-info">
+                            <h3>Spatial AR Reading Experience</h3>
+                            <p>AR</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="main-project-card">
+                    <img src="Images/project 2.png" alt="Project 2 Image">
+                    <div class="project-info">
+                        <h3>Voice User Interface For Algonquin Park</h3>
+                        <p>VUI</p>
+                    </div>
+                </div>
+
+                <div class="main-project-card">
+                    <img src="Images/project 3.png" alt="Project 3 Image">
+                    <div class="project-info">
+                        <h3>Accessible Smart Home Control System</h3>
+                        <p>UI</p>
+                    </div>
+                </div>
+        </section>
+        <section id="why-dandelion">
+            <h2>Why Dandelion?</h2>
+            <p>Just like dandelions float freely and land somewhere new, my ideas and creations aim to travel, inspire,
+                and land with impact.</p>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <section class="footer-container">
+            <div class="left-footer">
+                <p>Let's grow together!&nbsp;&nbsp;&nbsp;</p>
+            </div>
+            <div class="right-footer">
+                <img src="Images/linkedin (1).png" alt="Linkedin">
+                <img src="Images/twitter.png" alt="Twitter">
+                <img src="Images/facebook.png" alt="Facebook">
+                <img src="Images/instagram.png" alt="Instagram">
+            </div>
+        </section>
+    </footer>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
